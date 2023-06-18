@@ -26,10 +26,5 @@ void arra(int *arr, int SIZE)
 		mul *= arr[i];
 	}
 
-	/*for (int i = 1; i <= SIZE; i++)
-	{
-		mul *= arr[i];
-	}*/
-
 	cout << sum << endl << mul;
 }

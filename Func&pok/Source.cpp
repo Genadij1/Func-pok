@@ -26,7 +26,7 @@ int main() {
     int* arr = new int[size] {1, 2, 3, 4, 5};
 
     int blockSize = 4;
-    int* elements = new int[blockSize] {6, 7, 8,9};
+    int* elements = new int[blockSize] {6, 7, 8, 9};
 
     appendElements(arr, size, elements, blockSize);
 
